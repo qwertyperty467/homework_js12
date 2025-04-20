@@ -106,9 +106,9 @@ console.log(5);
 //   Повертає масив значень певної властивості prop з
 //    кожного об'єкта в масиві.
 
-const Object = [
+const Obj = [
   { name: "Apple", price: 30, category: "fruit" },
-  { name: " Banana", price: 20, category: "fruit" },
+  { name: "Banana", price: 20, category: "fruit" },
   { name: "Broccoli", price: 25, category: "vegetable" },
   { name: "Bread", price: 15, category: "bakery" },
 ];
@@ -124,7 +124,7 @@ function getAllPropValues(arr, prop) {
   return values;
 }
 
-console.log(getAllPropValues(Object, "category"));
+console.log(getAllPropValues(Obj, "category"));
 
 
 console.log(6);
